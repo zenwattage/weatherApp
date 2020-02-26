@@ -1,0 +1,115 @@
+* {
+  font-family: 'Francois One';
+}
+
+body {
+  margin-top: 150px;
+  background: rgb(13, 180, 157);
+  background: linear-gradient(
+    90deg,
+    rgb(173, 207, 94) 11%,
+    rgba(244, 223, 110, 1) 49%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.container {
+  width: 300px;
+  background-color: #f4f9ff;
+
+  display: block;
+  margin-top: 100px;
+  margin: 50px auto;
+
+  border-radius: 0.5em;
+  padding-bottom: 50px;
+  box-shadow: -5px -5px 5px 0 #cab959a9, 10px 10px 10px 0 rgba(0, 0, 0, 0.137);
+}
+
+.app-title {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px 10px 0 0;
+}
+
+.app-title p {
+  text-align: center;
+  padding: 15px;
+  margin: 0 auto;
+  font-size: 1.5em;
+  color: #293251;
+}
+
+.notification {
+  background-color: #f8d7da;
+  display: none;
+}
+
+.notification p {
+  color: #721c24;
+  font-size: 1.2em;
+  margin: 0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.weather-container {
+  width: 300px;
+  height: 260px;
+  background-color: #f4f9ff;
+}
+
+.weather-icon {
+  width: 300px;
+  height: 128px;
+}
+
+.weather-icon img {
+  display: block;
+  margin: 0 auto;
+}
+
+.temp-value {
+  width: 300px;
+  height: 60px;
+}
+
+.temp-value p {
+  padding: 0;
+  margin: 0;
+  color: #293251;
+  font-size: 4em;
+  text-align: center;
+}
+
+.temp-value p:hover {
+  cursor: pointer;
+}
+
+.temp-value span {
+  color: #293251;
+  font-size: 0.5em;
+}
+
+.temp-description p {
+  padding: 8px;
+  margin: 0;
+  color: #293251;
+  text-align: center;
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+.clickfor p {
+  text-align: center;
+  color: #293251;
+}
+
+.location p {
+  margin: 0;
+  padding: 0;
+  color: #293251;
+  text-align: center;
+  font-size: 1.3em;
+  text-transform: capitalize;
+}
